@@ -66,6 +66,6 @@ foreach($Worksheet in $Workbook.Worksheets) {
 # Closing all 
 $Workbook.Close()
 $Excel.Quit() 
-[System.Runtime.Interopservices.Marshal]::ReleaseComObject($Excel)
+[System.Runtime.Interopservices.Marshal]::ReleaseComObject($Excel) >$null # Release COM
 Stop-Process -Name EXCEL
 Remove-Variable Excel
