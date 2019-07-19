@@ -1,4 +1,5 @@
 #===================================================================================================================#
+#  Built and tested under Powershell version 5.1                                                                    #
 #                                                                                                                   #
 # This script imports a CSV UTF8 file ($CSV_inpfile), performing some Quality analysis upon its Contents and then   #
 # saving results into an XLSX output file ($XLS_outfile).                                                           #
